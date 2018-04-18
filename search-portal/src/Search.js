@@ -1,5 +1,10 @@
 import React, { Component } from "react";
  
+
+
+//http://192.168.1.18:8983/solr/elgg-core/select?q=*:*
+
+
 class Search extends Component {
   render() {
     return (
@@ -10,7 +15,7 @@ class Search extends Component {
 
         <div>
           <form>
-          
+
             <input type="text"/>
             <input type="submit"/>
 
