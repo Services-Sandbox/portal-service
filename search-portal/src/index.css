@@ -37,3 +37,36 @@ ul.header li a {
 .active {
   background-color: #0099FF;
 }
+
+
+.searchInput {
+    border-color: #333;
+    border-width: 3px;
+    border-style: solid;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    padding: 0 5px 0 7px;
+    width: 80%;
+    margin-top: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.searchButton {
+    padding: 5px;
+    border: 4px #20A6FF solid;
+    background-color: #20A6FF;
+    width: 36px;
+    height: 36px;
+    color: transparent;
+    line-height: 0;
+    position: relative;
+    top: -2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.searchArea {
+ display: inline-block; 
+}
